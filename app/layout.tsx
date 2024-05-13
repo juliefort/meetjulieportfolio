@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Josefin_Sans} from "next/font/google";
 import { GeistSans } from "geist/font/sans";
-import "./globals.css";
+import "/public/globals.css";
 import { cn } from "@/lib/utils";
 
 const JosefinSans = Josefin_Sans({ subsets: ["latin"], 
