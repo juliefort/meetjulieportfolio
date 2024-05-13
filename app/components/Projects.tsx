@@ -1,5 +1,6 @@
 import { RoughNotation } from "react-rough-notation";
 import { projects } from "../data/constants";
+import Image from "next/image";
 
 
 export const Projects = () => {
@@ -15,9 +16,9 @@ export const Projects = () => {
             {projects.map((project) => (
 
                 <div className="flex flex-col pb-8 items-center text-slate-800">
-                    <img src={project.image} className="projectsImages rounded-md"></img>
+                    <Image src={project.image} width={300} height={200}  className="projectsImages rounded-md" alt="photo de projet"></Image>
                     <p className="font-caption text-white md:text-lg sm:text-base border-black border-b border-slate-600 pt-1"> {project.title} </p> 
-                    <a href={project.github} target="_blank" type="button" className="border-slate-600 button rounded-lg border px-4 py-1 mt-4 text-white text-sm" > Voir le repository -> </a>
+                    <a href={project.github} target="_blank" type="button" className="border-slate-600 button rounded-lg border px-4 py-1 mt-4 text-white text-sm" > Voir le repository </a>
                 </div>
             
             ))}

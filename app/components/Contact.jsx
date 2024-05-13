@@ -4,6 +4,7 @@ import Link from "next/link";
 import { GithubIcon } from "../icons/GithubIcon";
 import { LinkedInIcon } from "../icons/LinkedInIcon";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export const Contact = () => {
    return(
@@ -16,7 +17,7 @@ export const Contact = () => {
         </div>
        
         <div className="cardContact flex flex-row justify-evenly items-center">
-            <img src="/image/photo.jpeg" className="contactImage rounded-full" alt="Photo de Julie Fort"></img>
+            <Image src="/image/photo.jpeg" width={60} height={60} className="contactImage rounded-full" alt="Photo de Julie Fort"></Image>
             <div className="flex flex-col gap-2">
                 <p className="text-white text-sm border-b border-white text-center"> Me joindre : </p>
                 <ul className="flex gap-3 justify-center">

@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { skills } from "../data/constants";
 import { RoughNotation } from "react-rough-notation";
-
+import Image from "next/image";
 
 
 export const Skills = () => {
@@ -19,7 +19,7 @@ export const Skills = () => {
                                 <div className="flex justify-center flex-wrap mb-5 gap-3">
                                     {skill.skills.map((skill) => (
                                         <div className="skillItem mt-2 flex items-center justify-center gap-2">
-                                            <img src={skill.image} className="w-6 h-6"></img>
+                                            <Image src={skill.image} width={24} height={24} alt="logo technologies"></Image>
                                                 {skill.name}
                                         </div>
                                     ))}

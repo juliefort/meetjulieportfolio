@@ -18,7 +18,7 @@ export const skills = [
     skills: [
         {
             name: "Bootstrap",
-            image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
         },
         {
             name: "Tailwind",
@@ -34,15 +34,15 @@ export const skills = [
         },
         {
             name: "HTML",
-            image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
         },
         {
             name: "CSS",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
         },
         {
             name: "Javascript",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg"
         },
     ]
 },
@@ -55,7 +55,7 @@ export const skills = [
             },
             {
                 name: "Symfony",
-                image: "https://thetribe.io/wp-content/uploads/symfony-spreadsheet.jpg"
+                image: "https://upload.wikimedia.org/wikipedia/commons/6/60/Symfony2.svg"
             },
             {
                 name: "Node Js",
@@ -76,11 +76,7 @@ export const skills = [
             },
             {
                 name: "Github",
-                image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            },
-            {
-                name: "Visual Studio Code",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+                image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
             },
             {
                 name: "Figma",
@@ -88,11 +84,11 @@ export const skills = [
             },
             {
                 name: "Vercel",
-                image: "https://logowik.com/content/uploads/images/vercel1868.jpg",
+                image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg",
             },
             {
                 name: "Heroku",
-                image: "https://logowik.com/content/uploads/images/heroku8748.jpg",
+                image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg",
             },
         ]
     }
@@ -152,7 +148,7 @@ export const projects = [
         title: 'Association Toutes Ensembles',
         date: 'Novembre 2023',
         image: 
-            "./images/toutesensembles.jpg",
+            "/images/toutesensembles.jpg",
         tags: [
             "HTML",
             "CSS",
@@ -167,7 +163,7 @@ export const projects = [
         id: 1,
         title: 'Jeu de dés',
         date: 'Decembre 2023',
-        image: "./images/dicegame.jpg",
+        image: "/images/dicegame.jpg",
         tags: [
             "HTML",
             "CSS",
@@ -185,7 +181,7 @@ export const projects = [
         date: 'Decembre 2023 - Février 2024',
         description: 
             "Pour une évaluation en cours de formation j'ai réalisé un site web contenant une solution de gestion de contenu pour un garage. Ce site contient une partie back-end pour permettre à l'administrateur et à ses employés d'accéder à un espace administratif",
-        image: "./images/GarageParrot.jpg",
+        image: "/images/garagevparrot.jpg",
         
         tags: [
             "HTML",
@@ -205,7 +201,7 @@ export const projects = [
         date: 'November 2023',
         description: 
             "Dans le cadre du site web Front-End Mentor j'ai réalisé une newsletter responsive et adaptable, en HTML et Javascript et avec le préprocesseur SASS.",
-        image: "./images/newsletter.jpg",
+        image: "/images/newsletter.jpg",
         tags: [
             "HTML",
             "CSS",

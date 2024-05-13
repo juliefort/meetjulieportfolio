@@ -47,7 +47,7 @@ export const Experiences = () => {
                     <p className="font-caption text-white text-3xl"> 2020 - 2022 </p>
                     <div className="experienceCard text-slate-800 bg-slate-300 flex flex-wrap justify-center items-center">
                         <p className="font-caption  md:text-lg sm:text-base text-center border-b border-black pt-1"> Conseillère en bijouterie </p>
-                        <p className="text-sm text-center mb-4"> L'atelier d'Amaya, Montpellier </p> 
+                        <p className="text-sm text-center mb-4"> L&apos;atelier d&apos;Amaya, Montpellier </p> 
                     </div>
                     </div>
                     <div className="timelineContainer flex[1] flex items-center justify-start">
